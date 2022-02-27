@@ -1,0 +1,592 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>This last ages looking-glasse: or Englands sad elligie. By S. H.</title>
+            <author>S. H.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1642</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86134</idno>
+            <idno type="STC">Wing H125</idno>
+            <idno type="STC">Thomason E124_2</idno>
+            <idno type="STC">ESTC R4702</idno>
+            <idno type="EEBO-CITATION">99872713</idno>
+            <idno type="PROQUEST">99872713</idno>
+            <idno type="VID">156160</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86134)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 156160)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 22:E124[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>This last ages looking-glasse: or Englands sad elligie. By S. H.</title>
+                  <author>S. H.</author>
+               </titleStmt>
+               <extent>[20]   </extent>
+               <publicationStmt>
+                  <publisher>by Stephen Bulkley,</publisher>
+                  <pubPlace>Printed at York [i.e. London] :</pubPlace>
+                  <date>1642. With licence.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Signatures: A-B⁴ C² .</note>
+                  <note>Annotation on Thomason copy: "and reprinted at London. 22 Octob:" follows imprint.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:156160:1" rendition="simple:additions"/>
+            <p>THIS LAST AGES LOOKING-GLASSE: OR ENGLANDS SAD ELLIGIE.</p>
+            <p>By S. H.</p>
+            <q xml:lang="lat">
+               <l>Quandoque bonus dormitat Homerus,</l>
+               <l>Aſpiciunt occulis ſuperi mortalia Juſtis.</l>
+            </q>
+            <figure/>
+            <p>Printed at <hi>York</hi> by <hi>Stephen Bulkley,</hi> 1642. <hi>With Licence.</hi>
+            </p>
+            <pb facs="tcp:156160:2"/>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:156160:2"/>
+            <head>COVRTEOVS READER.</head>
+            <p>IF thou look for a large Epiſtle to this little Pamphlet, thy expectation is Fruſtrate; for I am affraid to fall into the Citizens of MINDAS diſeaſe, that my Book ſhould run out at the Por<g ref="char:EOLhyphen"/>tall. If thou finde any thing Worth thy Reading, make Vſe of it; Looke not at the rudeneſſe either of the Phraſe or the Verſe, but the well-meaning of the Au<g ref="char:EOLhyphen"/>thor. Looke not for Poliſhed Lines, but Matter pointing at the Times. It is the firſt Born, if it miſcarry or prove Abor<g ref="char:EOLhyphen"/>tive
+<pb facs="tcp:156160:3"/>
+it will be an obſtruction to the Se<g ref="char:EOLhyphen"/>cond Birth, to hinder the bringing forth; But however, if thou Like it, take it; if not, leave it and begone; So Farewell.</p>
+            <closer>
+               <signed>Thine as Thou <g ref="char:V">Ʋ</g>ſeſt Him, <hi>S. H.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:156160:3"/>
+            <lg n="1">
+               <head>Seeing.</head>
+               <l>WHat Age is this that we behould?</l>
+               <l>Where war is bought, &amp; peace is ſould</l>
+               <l>When we look each one at his own,</l>
+               <l>Reaping the ſeeds others have ſown:</l>
+               <l>O how we make our Chriſtall Eyes!</l>
+               <l>Of Villainies vile to be the Spies:</l>
+               <l>We ſee the Moate, but not the Beame,</l>
+               <l>Other faults great, ours ſmall we deeme.</l>
+               <l>As the Eagle we are quick of ſight,</l>
+               <l>Bringing anothers deeds to light;</l>
+               <l>But as blind beetles we cannot ſee,</l>
+               <l>Our own ſad wofull miſerie.</l>
+               <l>We waile the Judgment, and the Rod,</l>
+               <l>But not our ſins offending God;</l>
+               <l>We as the Dog, look at the ſtone,</l>
+               <l>But at our ſins, few or none</l>
+               <l>Will once look back, and ſee the thing</l>
+               <l>That doth Gods vengeance ſwiftly bring.</l>
+               <l>We ſee, neither cauſe, nor ſender,</l>
+               <l>But vengeance for wrath we render,</l>
+               <l>We ſee all things but what we ſhould,</l>
+               <l>Lord caſt us in a better mould,</l>
+               <l>And grant mine Eyes may ſee the thing,</l>
+               <l>That may pleaſe God and eeke my King.</l>
+            </lg>
+            <lg n="2">
+               <pb facs="tcp:156160:4"/>
+               <head>Hearing.</head>
+               <l>WHat Age is this wherein I Heare?</l>
+               <l>Such ſound of Treaſon in mine Eare,</l>
+               <l>Such contumelies, and ſuch Lyes,</l>
+               <l>As deafs mine Ears and blinds mine Eyes.</l>
+               <l>Of ſterne War ſuch dreadfull rumors,</l>
+               <l>But to ſatiate ſome mens humors;</l>
+               <l>Whoſe ſole delight is onely bloud,</l>
+               <l>That they may bathe in Crimſon floud.</l>
+               <l>If they laugh, who weep they care not,</l>
+               <l>Yea, to ruine all they ſpare not.</l>
+               <l>Iſt Religion, or Reaſon?</l>
+               <l>That keeps no Time, Tune, or Seaſon;</l>
+               <l>What Blaſphemies do ſome relate?</l>
+               <l>Againſt Our God, our King, and State;</l>
+               <l>Some cry out of Church Government,</l>
+               <l>Some to ruine the Temple are bent,</l>
+               <l>And ſome cannot endure to Heare</l>
+               <l>The Sound o'th' Organ in their Eare,</l>
+               <l>Nor yet our Churches Bells ſweet ſound,</l>
+               <l>They doe their fiery zeale confound.</l>
+               <l>The Charmers Voice they will not Heare,</l>
+               <l>His Tongue not chained to their Eare:</l>
+               <l>But God grant I may Heare the thing,</l>
+               <l>That Sound may well to God and King<g ref="char:punc">▪</g>
+               </l>
+            </lg>
+            <lg n="3">
+               <pb facs="tcp:156160:4"/>
+               <head>Smelling.</head>
+               <l>WHat Age is this wherein I Smell?</l>
+               <l>Such noyſome ſtench from hatefull Hell;</l>
+               <l>Such unſavoury poyſoned Weeds,</l>
+               <l>That in this Land Infection breeds;</l>
+               <l>Infecting ſo the healthfull Ayre,</l>
+               <l>Rayſing ſterne Stormes for Weather faire.</l>
+               <l>Are theſe the Noſegaies of Delight?</l>
+               <l>Pleaſe they the Sence, the Noſe, or Sight,</l>
+               <l>Me thinks the ſtench aſcends the Brain,</l>
+               <l>Poyſoning the Stomack and each Vain<g ref="char:punc">▪</g>
+               </l>
+               <l>Diffuſing venom through the Joints,</l>
+               <l>And at Deſtruction only points;</l>
+               <l>Putting the Body out of frame,</l>
+               <l>Making all things ſeem not the ſame.</l>
+               <l>Oh! how it poyſoned hath my Noſe,</l>
+               <l>To Smell the Hemlock for the Roſe,</l>
+               <l>For odoriferous Sents moſt Sweet,</l>
+               <l>To Smell the Channell in the Street.</l>
+               <l>For Practiſe, I have found but ſhow;</l>
+               <l>Mark how this new-found Age doth grow:</l>
+               <l>Me thinks now here I ſmell a Knave,</l>
+               <l>That ſpeaks this thing, and that would have;</l>
+               <l>But Lord grant me my Smelling well,</l>
+               <l>That I with God and King may dwell.</l>
+            </lg>
+            <lg n="4">
+               <pb facs="tcp:156160:5"/>
+               <head>Taſting.</head>
+               <l>WHat Age is this wherein I reſt?</l>
+               <l>To <hi>Taſte</hi> things baske for what are beſt,</l>
+               <l>Sowre things for pleaſant do not well,</l>
+               <l>For vain ſhaddows the ſubſtance ſell;</l>
+               <l>This bargain is a bad exchange,</l>
+               <l>Good ſoiles leaving, on Heathes to range:</l>
+               <l>To drink puddle in ſtead of Meed,</l>
+               <l>May danger in the body breed.</l>
+               <l>It cannot well my <hi>Taſting</hi> reliſh,</l>
+               <l>The Diſh of Treaſon it is Helliſh;</l>
+               <l>Hath no Savour to good Pallats,</l>
+               <l>Reſembling right to weedy Sallats</l>
+               <l>That have a rank and noyſome <hi>Taſte,</hi>
+               </l>
+               <l>Moſt fit on Dung-hill to be caſte,</l>
+               <l>That neither relliſh well, nor feed,</l>
+               <l>Let us deteſt this fruitleſſe ſeed:</l>
+               <l>Oh how I have my Coyne layd out</l>
+               <l>For fruitleſſe food (I fear, I doubt)</l>
+               <l>My Mouth it is clean out of ſeaſon,</l>
+               <l>To ſee Men live ſo voide of Reaſon;</l>
+               <l>To <hi>Taſte</hi> all things they do refrain,</l>
+               <l>But what are tempered in their Brain.</l>
+               <l>But God grant I may <hi>Taſte</hi> the thing,</l>
+               <l>That reliſh may my God and King.</l>
+            </lg>
+            <lg n="5">
+               <pb facs="tcp:156160:5"/>
+               <head>Touching.</head>
+               <l>WHat Age is this wherein I ſtand?</l>
+               <l>That I ſhould now lift up a Hand</l>
+               <l>'Gainſt Him, whom God did ſole Annoint,</l>
+               <l>Ile racked be from joynt to joynt,</l>
+               <l>And each Limbe be pull'd aſunder,</l>
+               <l>Before I make the World wonder</l>
+               <l>At ſuch vile trayterous Acts of mine,</l>
+               <l>My thoughts and deeds I will refine,</l>
+               <l>And in that mould my Actions frame,</l>
+               <l>That may me ſpotleſſe leave to Fame.</l>
+               <l>Oh let that Hand for ever rot,</l>
+               <l>That 'gainſt my Liege doth Act a Plot</l>
+               <l>That may his patient Spirit move,</l>
+               <l>Or any way eſtrange his Love;</l>
+               <l>Nor in the Land let any Live,</l>
+               <l>That would His Grace ill Councell give.</l>
+               <l>Shall any harpe upon that ſtring?</l>
+               <l>To take up Arms againſt their King,</l>
+               <l>The Lords Annoynted for to touch,</l>
+               <l>A wicked Heart I have none ſuch.</l>
+               <l>I hate the waies of ſuch a wight,</l>
+               <l>they are not pleaſing in Gods ſight.</l>
+               <l>God grant I may touch on that ſtring,</l>
+               <l>That may pleaſe God and eeke my King.</l>
+            </lg>
+            <div type="part">
+               <pb facs="tcp:156160:6"/>
+               <head>Common Sences.</head>
+               <lg>
+                  <l>WHat Age is this, ſay Common <hi>Sence?</hi>
+                  </l>
+                  <l>Worſe cannot be by conſequence;</l>
+                  <l>I ſee few Men that look at Peace,</l>
+                  <l>or ſtrive to make the VVarrs to ceaſe:</l>
+                  <l>they do pretend Peace in their VVords,</l>
+                  <l>Whilſt they are brandiſhing their Swords:</l>
+                  <l>I Heare no tidings of Concord,</l>
+                  <l>Look down upon us now O Lord;</l>
+                  <l>Each Day brings forth more cruell things.</l>
+                  <l>In each Eare wofull tidings Rings.</l>
+                  <l>I <hi>Smell</hi> nothing that pleaſant is,</l>
+                  <l>Sorrow is neer, but far is Bliſſe;</l>
+                  <l>For beauty burning, for ſweet ſmells ſtink,</l>
+                  <l>For pleaſant VVine, we VVorm wood Drink.</l>
+                  <l>I <hi>Taſte</hi> nothing that gives content,</l>
+                  <l>Our ſweet meats now we muſt Repent,</l>
+                  <l>We had the Dainty fare of Peace,</l>
+                  <l>But now we muſt forgoe our eaſe.</l>
+                  <l>My <hi>Touch</hi> and <hi>Feeling</hi> I have loſt,</l>
+                  <l>Theſe things too dearely have me coſt,</l>
+                  <l>I <hi>Touch</hi> nothing but am defil'd,</l>
+                  <l>With Chaffe for Corne, I am beguil'd.</l>
+                  <l>Will <hi>Common Sence</hi> nothing availe?</l>
+                  <l>Will not the naked <hi>Truth</hi> prevaile?</l>
+                  <l>
+                     <pb facs="tcp:156160:6"/>
+Theſe things are ſtrange, and very rare,</l>
+                  <l>Lord free this Land of broken ware;</l>
+                  <l>O ſmite theſe Rebels in the Head,</l>
+                  <l>And with dread Thunder, ſtrike them Dead,</l>
+                  <l>That all may <hi>See, Touch, Taſte,</hi> and <hi>Heare,</hi>
+                  </l>
+                  <l>And Learn our God to dread and <hi>Feare,</hi>
+                  </l>
+                  <l>That I and All, may quickly <hi>Smell,</hi>
+                  </l>
+                  <l>That God and King them all will quell.</l>
+               </lg>
+               <lg>
+                  <l>Stay, Let me wonder once again,</l>
+                  <l>What Flouds of <hi>Tears</hi> run down amain?</l>
+                  <l>What wofull ſhreeks, what trembling Hands?</l>
+                  <l>What Fear to loſe, Lives, Goods, and Lands?</l>
+                  <l>Oh how we Weep, we Mourn, and Waile,</l>
+                  <l>Thongh it doe us but ſmall availe,</l>
+                  <l>To <hi>See</hi> the Times thus diſtracted,</l>
+                  <l>To heare Laws, that are inacted,</l>
+                  <l>'Gainſt Subjects Liberties and Rights:</l>
+                  <l>Alas poor Soules, Oh wofull wights,</l>
+                  <l>That once ſo fairely flouriſhed,</l>
+                  <l>Are now quite Dead and Periſhed.</l>
+                  <l>What Age is this wherein we live?</l>
+                  <l>All takes away, and none will give,</l>
+                  <l>Takes what our chiefeſt Joys increaſe,</l>
+                  <l>Our choiſeſt Jem, our Jewell Peace,</l>
+                  <l>This Nations chiefeſt Ornament,</l>
+                  <l>Yet none doe Sorrow or Repent.</l>
+                  <gap reason="missing" extent="1+ pages">
+                     <desc>〈1… pages missing〉</desc>
+                  </gap>
+                  <l>
+                     <pb facs="tcp:156160:7" rendition="simple:additions"/>
+Some muddie makes the Chriſtall ſtreame,</l>
+                  <l>Others of better times doe dreame.</l>
+                  <l>But as for me ile ſerue and feare,</l>
+                  <l>The Lord my God, and King moſt deare.</l>
+               </lg>
+               <lg>
+                  <l>O wofull age that ere was ſeen,</l>
+                  <l>How neare to falling have we been?</l>
+                  <l>Somtimes by ſword of Forraigne foe,</l>
+                  <l>Somtimes home broyles, Domeſticke woe,</l>
+                  <l>We have beene ſcourg'd with famine great,</l>
+                  <l>The poore have di'd for want of meat.</l>
+                  <l>Yea further Gods moſt heavie hand,</l>
+                  <l>With Peſtilence hath plagu'd this land.</l>
+                  <l>But ſtill in ſafetie we have ſlept,</l>
+                  <l>For ſinfull crimes we have not wept:</l>
+                  <l>But to our ſelves have cried peace,</l>
+                  <l>Living ſecurely<g ref="char:punc">▪</g> and at eaſe:</l>
+                  <l>When as our ſins are as the ſand,</l>
+                  <l>'Gainſt God himſelf we warlike ſtand.</l>
+                  <l>But marke we now, how times do turne;</l>
+                  <l>In ſtaed of mirth we now muſt mourne.</l>
+                  <l>One griefe another up doth call,</l>
+                  <l>Our drinke is teares mingled with gall,</l>
+                  <l>Sorrow we doe, we cannot ſpeake,</l>
+                  <l>Our hearts with griefe are like to breake</l>
+                  <l>Some are poſſeſt with Jealous feares,</l>
+                  <l>drunk with worm wood tearse.</l>
+                  <l>
+                     <pb facs="tcp:156160:7"/>
+But I'm reſolved firmely ſtill,</l>
+                  <l>To keep Gods and my Soveraigns will.</l>
+               </lg>
+               <lg>
+                  <l>Yea ſtranger ſtill doth ſeem this Age,</l>
+                  <l>The poore oppreſt, the wicked rage,</l>
+                  <l>With Murders, Rapines, and with Theft,</l>
+                  <l>This Land is poll'd, and nothing left.</l>
+                  <l>No man living ſcarcely can ſay,</l>
+                  <l>This is mine own, for't I did pay,</l>
+                  <l>He that hath felt the ſmart can tell</l>
+                  <l>That ſtrongeſt bears away the Bell:</l>
+                  <l>Yet ſome fatted to the ſlaughter</l>
+                  <l>Spend their time in Mirth and Langhter,</l>
+                  <l>Merrily quaffing off their VVine,</l>
+                  <l>Vainly ſpending precious Time;</l>
+                  <l>Though Sword be drawn and Bow be bent,</l>
+                  <l>And all the wicked muſt be ſhent,</l>
+                  <l>How idly ſtill their daies are ſpent.</l>
+                  <l>Their hearts are heard, they'l not relent;</l>
+                  <l>But putting off the evill day,</l>
+                  <l>To turn from ſin they do delay,</l>
+                  <l>In ſinfull crimes, they live and dye,</l>
+                  <l>Which in their boſoms hidden lye:</l>
+                  <l>Gods word by them is ſet by light,</l>
+                  <l>Thoſe ſacred Lines do dim their ſight.</l>
+                  <l>But firme and conſtant I will prove,</l>
+                  <l>My God to fear, my King to love.</l>
+                  <l>
+                     <pb facs="tcp:156160:8"/>
+Was ever Age in ſuch a caſe?</l>
+                  <l>To bring forth ſuch a Rebels Race,</l>
+                  <l>To ſheathe his Sword in's Fellows ſide,</l>
+                  <l>To Lye, Diſſemble, and cog beſide,</l>
+                  <l>
+                     <hi>Judas-like</hi> each other betray,</l>
+                  <l>For Peace few Preach, for Love few Pray,</l>
+                  <l>We, are taught a quite contrary way,</l>
+                  <l>None caring what they ſpeake or ſay.</l>
+                  <l>It's as common to vent Treaſon,</l>
+                  <l>As t'is to ſpeake ſence and Reaſon.</l>
+                  <l>Yee flintie ſtones? what? not relent?</l>
+                  <l>To ſee this ſadd, and dire Event</l>
+                  <l>Of times wicked inclination,</l>
+                  <l>Which threates ruine to this Nation.</l>
+                  <l>Our Sins the Skies haue Aſcended,</l>
+                  <l>Yet our lives are not Amended,</l>
+                  <l>Still drawing downe Gods irefull rod,</l>
+                  <l>Procureing emnitie with God,</l>
+                  <l>without whoſe freindſhip there's no peace,</l>
+                  <l>Nor hope of (Judgments great) releaſe.</l>
+                  <l>But a fearfull expectation,</l>
+                  <l>Of deſtruction, to this Nation.</l>
+                  <l>But Lord thy favour let me finde,</l>
+                  <l>That God and King may haue my minde.</l>
+               </lg>
+               <lg>
+                  <l>Alas pore age, what is the cauſe?</l>
+                  <l>Force guides thee now, and not the lawes,</l>
+                  <l>
+                     <pb facs="tcp:156160:8"/>
+That formerly haue rul'd this Land,</l>
+                  <l>All gvided were by their command,</l>
+                  <l>But how are they infringed now?</l>
+                  <l>Old ſtatuts to the new muſt bow,</l>
+                  <l>Surely there was no wiſdome then,</l>
+                  <l>This Age hath got far wiſer men,</l>
+                  <l>True it is, but is't not moſt ſtrange?</l>
+                  <l>That theſe times ſhould ſo quickly change,</l>
+                  <l>And be as though they ne'rc had bene:</l>
+                  <l>The oldeſt man this true hath ſeene.</l>
+                  <l>Sins are the ſole procureing things,</l>
+                  <l>That alterations alwayes bringes,</l>
+                  <l>Yet this full litle is regarded,</l>
+                  <l>Though ſin's never unrewarded<hi>:</hi>
+                  </l>
+                  <l>Yet till wee feele the wofull ſmart,</l>
+                  <l>Wee will not lay our ſins to heart.</l>
+                  <l>Wee put our truſt in horſes ſtrength,</l>
+                  <l>Meaſuring God by our owne length,</l>
+                  <l>To our Nets thus Sacrificing,</l>
+                  <l>Not regarding evils riſing.</l>
+                  <l>Lord grant on thee I may depend,</l>
+                  <l>And ſerve my god and King to th'end.</l>
+               </lg>
+               <lg>
+                  <l>Did ever age know ſuch a thing?</l>
+                  <l>For Songs of Joy, we Sorrow ſing;</l>
+                  <l>Our joyfull notes are changed quite,</l>
+                  <l>And mournefull tunes we Sing each night,</l>
+                  <l>
+                     <pb facs="tcp:156160:9"/>
+With frights and feares we ſtand agaſt,</l>
+                  <l>To ſee theſe times, and what is Paſt:</l>
+                  <l>But when we thinke of times to come</l>
+                  <l>We ſtricken ſpeachles are and dumbe;</l>
+                  <l>Our peace is turned into warre,</l>
+                  <l>We one with other ſeeke to jarre,</l>
+                  <l>Envie hath up her Kingdome ſet,</l>
+                  <l>Hatred this Nation hath beſet,</l>
+                  <l>Diviſions great from Sects doe ſpring,</l>
+                  <l>Which have devided People and King,</l>
+                  <l>All truly are at variance;</l>
+                  <l>Oh ſad eſtate, oh wofull chance,</l>
+                  <l>And ſilence up our mouthes haue ſhut,</l>
+                  <l>Pride and arrogance bravely ſtrut:</l>
+                  <l>Yea beggars ride, Kings goe on foot,</l>
+                  <l>Swolne ambition rules, looke too't.</l>
+                  <l>Each one dare not truſt another,</l>
+                  <l>Brother perſecutes the brother:</l>
+                  <l>But I deteſt ſuch tunes to ſing,</l>
+                  <l>Ile love my God and my good King.</l>
+               </lg>
+               <lg>
+                  <l>An age indeed to ſee the times,</l>
+                  <l>Beſpread with ribauldries, and rimes:</l>
+                  <l>Striking at ſcepters, yea Kings wounding,</l>
+                  <l>Royall Monarchie confounding:</l>
+                  <l>Seeking to eclipſe his name,</l>
+                  <l>Whoſe worth ſhall outlive time and fame.</l>
+                  <l>
+                     <pb facs="tcp:156160:9"/>
+Yea flouriſh ſtill and fairely ſhine,</l>
+                  <l>'Mongſt men on earth ane Saints divine:</l>
+                  <l>His peacefull raigne begot a ſtorie,</l>
+                  <l>To Crowne his yeares with laſting glorie.</l>
+                  <l>Which evill tongues can never blaſt,</l>
+                  <l>But ſhall all Ages farr out laſt.</l>
+                  <l>Nay here their malice doth not bound,</l>
+                  <l>What Sacred things have they left ſound?</l>
+                  <l>With ſtrange Sects we are devided,</l>
+                  <l>Law and Goſpell are derided;</l>
+                  <l>Decent order is neglected,</l>
+                  <l>Church government diſreſpected,</l>
+                  <l>All ceremonies now muſt downe,</l>
+                  <l>They with Garlands their actions Crowne.</l>
+                  <l>Great diſtractions full this Land,</l>
+                  <l>Tell me then? Can this Kingdome ſtand?</l>
+                  <l>I'me dumbe Lord teach me what to ſay,</l>
+                  <l>That I to God for King may pray.</l>
+               </lg>
+               <lg>
+                  <l>Now having taken this ſhort view,</l>
+                  <l>Of things not good, yet too too true:</l>
+                  <l>Of things not heard in times before,</l>
+                  <l>Which ages now may well deplore;</l>
+                  <l>No Age that's paſt can paralell</l>
+                  <l>Theſe times wherein we live and dwell;</l>
+                  <l>Yea after Ages ſhall admire,</l>
+                  <l>Flouriſhing <hi>England</hi> now on fire.</l>
+                  <l>
+                     <pb facs="tcp:156160:10"/>
+Let us now look another way,</l>
+                  <l>And unto God Almighty pray.</l>
+                  <l>Lord look down from Heaven and ſee,</l>
+                  <l>This Nations wofull miſerie:</l>
+                  <l>Behould our languiſhing Eſtate,</l>
+                  <l>Let not our ſorrow come too late.</l>
+                  <l>We are at the pit ready to fall,</l>
+                  <l>From ſinking, Lord do us recall<hi>:</hi>
+                  </l>
+                  <l>Make up the breaches, Thou'rt the Man</l>
+                  <l>Of the diſtreſt Phyſitian.</l>
+                  <l>If thou hold off, what are we then?</l>
+                  <l>Moſt miſerable of all Men.</l>
+                  <l>O ſuccour Lord, and help us ſend,</l>
+                  <l>Thou art our God, be thou our friend.</l>
+                  <l>That I in heart and voice may ſing,</l>
+                  <l>To God be prayſe, and to my King.</l>
+               </lg>
+               <lg>
+                  <l>Help Lord for thou art onely hee,</l>
+                  <l>Or els we never ſhall agree,</l>
+                  <l>We are arrived at that height,</l>
+                  <l>That thou alone canſt make us ſtraight;</l>
+                  <l>O we are rent and wounded ſore,</l>
+                  <l>Our wounds increaſe ſtill more and more;</l>
+                  <l>Each one ſeeking to have his will,</l>
+                  <l>But few the Law for to fulfill;</l>
+                  <l>It is a curb that keeps us in,</l>
+                  <l>We ſtrive to free us from this gin,</l>
+                  <l>
+                     <pb facs="tcp:156160:10"/>
+Lord cut off thoſe rotten Members,</l>
+                  <l>That of theſe broiles are the ſenders,</l>
+                  <l>That in this Land run to and froe,</l>
+                  <l>To hatch the Eggs of wretched woe,</l>
+                  <l>Whoſe hearts and minds are wholly bent,</l>
+                  <l>To cauſe this Land ſadly lament,</l>
+                  <l>Sowing ſeditious wicked ſeed,</l>
+                  <l>Thou Lord root out that ſinfull Breed;</l>
+                  <l>And let the World ſee and wonder,</l>
+                  <l>At them ſtruck dead, with thy Thunder.</l>
+                  <l>But let them live in Joyes increaſe,</l>
+                  <l>That love the Olive branch of Peace,</l>
+                  <l>Who Joy to heare of <hi>Sions</hi> Joy,</l>
+                  <l>Let no dire miſchiefe them anoy,</l>
+                  <l>But let them live and flouriſh ſtill,</l>
+                  <l>And guard them ſtrongly from all ill.</l>
+                  <l>Lord teach my heart to prayſe thy name,</l>
+                  <l>Let tongue and voyce eeke doe the ſame,</l>
+                  <l>Let <hi>Charles</hi> glorie through <hi>England</hi> ring,</l>
+                  <l>Let Subjects ſay, <hi>God Save the King.</hi>
+                  </l>
+               </lg>
+            </div>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
